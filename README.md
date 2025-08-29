@@ -63,3 +63,11 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 - Other required libraries can be installed by: `pip install requirements.txt`
 
 - All the Hyperparameters can be found in the `config.py` file.
+
+### 6. References
+
+Most of the code of our backbone is borrowed from AGW [1] and TransReID [2].
+
+[1] Ye M, Shen J, Lin G, et al. Deep learning for person re-identification: A survey and outlook[J]. IEEE transactions on pattern analysis and machine intelligence, 2021, 44(6): 2872-2893.
+
+[2] He S, Luo H, Wang P, et al. Transreid: Transformer-based object re-identification[C]//Proceedings of the IEEE/CVF international conference on computer vision. 2021: 15013-15022.
