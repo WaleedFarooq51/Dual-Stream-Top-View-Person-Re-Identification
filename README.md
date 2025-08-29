@@ -18,7 +18,7 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 #### Prepare Custom Dataset
 
 - If you want to prepare your own custom dataset, you need to run `python process_dataset.py` to prepare the dataset, the training data will be stored in ".npy" format.
-- After the data is stored in ".npy" format, you need to define the data path in `config.py`.
+- After the data is stored in ".npy" format, you need to define the data path in `config.py` before training or testing.
 
 ### 3. Training
 
@@ -32,3 +32,19 @@ There are two architectures with a ResNet-50 backbone as a feature extractor. On
   - To train single-stream architecture, run the python file `train_single_stream_net.py` in the Backbone-ResNet folder by executing:
   ```bash
   python train_single_stream_net.py
+  ```
+  
+- ViT Backbone
+
+ - To train using ViT backbone as a feature extractor, run the python file `train_ViT.py` in the Backbone-ViT folder by executing:
+  ```bash
+  python train_ViT.py
+  ```
+
+### 4. Testing
+
+- Evaluate a trained model by executing: 
+```bash
+  python test_fused.py --resume 'model_path'
+  ```
+   - `--resume`: the saved model path.
