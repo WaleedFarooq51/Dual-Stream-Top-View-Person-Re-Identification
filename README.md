@@ -24,16 +24,16 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 
 - ResNet-50 Backbone
   
-There are two architectures with a ResNet-50 backbone as a feature extractor. One is a dual-stream architecture, and the other is single-stream architecture.
+  There are two architectures with a ResNet-50 backbone as a feature extractor. One is a dual-stream architecture, and the other is single-stream architecture.
 
-  - To train dual-stream architecture, run the python file `train_dual_stream_net.py` in the Backbone-ResNet folder by executing:
-  ```bash
-  python train_dual_stream_net.py
-  ```
-  - To train single-stream architecture, run the python file `train_single_stream_net.py` in the Backbone-ResNet folder by executing:
-  ```bash
-  python train_single_stream_net.py
-  ```
+    - To train dual-stream architecture, run the python file `train_dual_stream_net.py` in the Backbone-ResNet folder by executing:
+    ```bash
+    python train_dual_stream_net.py
+    ```
+    - To train single-stream architecture, run the python file `train_single_stream_net.py` in the Backbone-ResNet folder by executing:
+    ```bash
+    python train_single_stream_net.py
+    ```
   
 - ViT Backbone
 
