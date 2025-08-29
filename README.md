@@ -17,4 +17,4 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 
 #### Prepare Custom Dataset
 
-- If you want to prepare your own custom dataset, you need to run ```bash python process_dataset.py to prepare the dataset. The training data will be stored in ".npy" format.
+- If you want to prepare your own custom dataset, you need to run `python process_dataset.py` to prepare the dataset. The training data will be stored in ".npy" format.
