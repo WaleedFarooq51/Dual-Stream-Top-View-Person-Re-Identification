@@ -27,10 +27,12 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
   There are two architectures with a ResNet-50 backbone as a feature extractor. One is a dual-stream architecture, and the other is single-stream architecture.
 
     - To train dual-stream architecture, run the python file `train_dual_stream_net.py` in the Backbone-ResNet folder by executing:
+      
     ```bash
     python train_dual_stream_net.py
     ```
     - To train single-stream architecture, run the python file `train_single_stream_net.py` in the Backbone-ResNet folder by executing:
+      
     ```bash
     python train_single_stream_net.py
     ```
@@ -38,14 +40,26 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 - ViT Backbone
 
   - To train using ViT backbone as a feature extractor, run the python file `train_ViT.py` in the Backbone-ViT folder by executing:
+    
   ```bash
-  python train_ViT.py
+  python train_ViT.py --config_file "config\\config.yml"
   ```
 
 ### 4. Testing
 
-- Evaluate a trained model by executing: 
+- Evaluate a trained model by executing:
+  
 ```bash
   python test_fused.py --resume 'model_path'
   ```
    - `--resume`: the saved model path.
+
+### 5. Requirements
+
+- Python version: `Python==3.9`
+
+- PyTorch version: `torch==1.12.1+cu11.3`
+
+- Other required libraries can be installed by: `pip install requirements.txt`
+
+- All the Hyperparameters can be found in the `config.py` file.
