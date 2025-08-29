@@ -28,7 +28,7 @@ There are two architectures with a ResNet-50 backbone as a feature extractor. On
   - To train dual-stream architecture, run the python file `train_dual_stream_net.py` in the Backbone-ResNet folder by executing:
   ```bash
   python train_dual_stream_net.py
-
+  ```
   - To train single-stream architecture, run the python file `train_single_stream_net.py` in the Backbone-ResNet folder by executing:
   ```bash
   python train_single_stream_net.py
