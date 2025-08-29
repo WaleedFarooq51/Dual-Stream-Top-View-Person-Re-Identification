@@ -1,9 +1,9 @@
-# Dual-Stream-Top View Person Re-Identification
+# Dual-Stream Top View Person Re-Identification
 PyTorch code for paper "A Framework for Integrating Person Re-Identification with Retail and Marketing Systems".
 
-The proposed design in this study is a dual-stream architecture, one for RGB modality and the other for Depth modality, with CNN-based ResNet-50 as the feature extractor backbone.
+- The proposed design in this study is a dual-stream architecture, one for RGB modality and the other for Depth modality, with CNN-based ResNet-50 as the feature extractor  backbone.
 
-For Generalization Evaluation of the proposed architecture, Transformer-based ViT-Base/16 was also adopted as the feature extractor backbone.
+- For Generalization Evaluation of the proposed architecture, Transformer-based ViT-Base/16 was also adopted as the feature extractor backbone.
 
 ### 1. Results
 
