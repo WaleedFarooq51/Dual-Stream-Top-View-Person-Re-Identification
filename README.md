@@ -1,7 +1,9 @@
-# Person-Re-Identification-in-Retail-and-Marketing-Systems
+# Dual-Stream-Top View Person Re-Identification
 PyTorch code for paper "A Framework for Integrating Person Re-Identification with Retail and Marketing Systems".
 
-I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, respectively.
+The proposed design in this study is a dual-stream architecture, one for RGB modality and the other for Depth modality, with CNN-based ResNet-50 as the feature extractor backbone.
+
+For Generalization Evaluation of the proposed architecture, Transformer-based ViT-Base/16 was also adopted as the feature extractor backbone.
 
 ### 1. Results
 
@@ -66,7 +68,7 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 
 ### 6. References
 
-Most of the code of our backbone is borrowed from AGW [1] and TransReID [2].
+Most of the code of the backbone architecture is borrowed from AGW [1] and TransReID [2].
 
 [1] Ye M, Shen J, Lin G, et al. Deep learning for person re-identification: A survey and outlook[J]. IEEE transactions on pattern analysis and machine intelligence, 2021, 44(6): 2872-2893.
 
