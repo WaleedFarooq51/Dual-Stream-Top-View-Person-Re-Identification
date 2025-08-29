@@ -14,12 +14,14 @@ PyTorch code for paper "A Framework for Integrating Person Re-Identification wit
 
 ### 2. Datasets
 
-- The dataset in the form of images and in .npy format can be downloaded from this link.
+- The dataset in the form of images and in .npy format can be downloaded from this [Link](https://drive.google.com/drive/folders/1CvoPTECe3Wf2R4IGUu1bojw9B3nMftfG?usp=sharing).
 - The link contains training data and testing data as well for evaluation purposes.
+- The training data for RGB and Depth modalities is stored in ".npy" format.
+- The testing data contains multiple Gallery and Probe folders for evaluation purposes.
 
 #### Prepare Custom Dataset
 
-- If you want to prepare your own custom dataset, you need to run `python process_dataset.py` to prepare the dataset, the training data will be stored in ".npy" format.
+- If you want to prepare your own custom training dataset, you need to run `python process_dataset.py` to prepare the dataset, the training data will be stored in ".npy" format.
 - After the data is stored in ".npy" format, you need to define the data path in `config.py` before training or testing.
 
 ### 3. Training
@@ -49,7 +51,7 @@ PyTorch code for paper "A Framework for Integrating Person Re-Identification wit
 
 ### 4. Testing
 
-- Evaluate a trained model by executing:
+- Evaluate the trained model on your own testing data or use the provided [testing data](https://drive.google.com/drive/folders/1u8E4Z3W84MMzC6mBmURCm0DQbcPmhTlp?usp=sharing).
   
 ```bash
   python test.py --resume 'model_path'
