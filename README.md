@@ -52,7 +52,7 @@ PyTorch code for paper "A Framework for Integrating Person Re-Identification wit
 - Evaluate a trained model by executing:
   
 ```bash
-  python test_fused.py --resume 'model_path'
+  python test.py --resume 'model_path'
   ```
    - `--resume`: the saved model path.
 
