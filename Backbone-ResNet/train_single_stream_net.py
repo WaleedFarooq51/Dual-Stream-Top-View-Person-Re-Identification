@@ -76,7 +76,7 @@ if not os.path.isdir(log_path):
 if not os.path.isdir(checkpoint_path):
     os.makedirs(checkpoint_path)
 
-suffix = "checkpoint" + '_agw_p{}_n{}_lr_{}_seed_{}'.format(args.num_pos, args.batch_size, cfg.BASE_LR, args.seed)
+suffix = "checkpoint" + 'p{}_n{}_lr_{}_seed_{}'.format(args.num_pos, args.batch_size, cfg.BASE_LR, args.seed)
 
 if not args.optim == 'sgd':
     suffix = suffix + '_' + args.optim
