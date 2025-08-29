@@ -7,10 +7,10 @@ PyTorch code for paper "A Framework for Integrating Person Re-Identification wit
 
 ### 1. Results
 
-|Backbone    | Pretrained| Rank@1   | mAP      | Model|
+|Backbone    | Pretrained| Rank@1   | mAP      | Trained Model|
 | --------   | -----     | -----    |--------- |------|
-|ResNet-50   | ImageNet  | ~ 97.94% | ~ 98.82% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
-|ViT         | ImageNet  | ~ 83.20% | ~ 91.20% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
+|ResNet-50   | ImageNet  | ~ 97.94% | ~ 98.82% | [GoogleDrive](https://drive.google.com/drive/folders/16F8wTX9JiTPi0jJu7xVCpxLjATIenZ24?usp=sharing)|
+|ViT-Base/16 | ImageNet  | ~ 83.20% | ~ 91.20% | [GoogleDrive](https://drive.google.com/drive/folders/1qIhB7TLF6kQATniU-fFUJB6bS52uKOnZ?usp=sharing)|
 
 ### 2. Datasets
 
