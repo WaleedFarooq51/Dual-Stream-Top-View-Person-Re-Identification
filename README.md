@@ -9,3 +9,10 @@ I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, 
 | --------   | -----     | -----    |--------- |------|
 |ResNet-50   | ImageNet  | ~ 97.94% | ~ 98.82% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
 |ViT         | ImageNet  | ~ 83.20% | ~ 91.20% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
+
+### 2. Prepare the datasets.
+
+- The dataset in the form of images and in .npy format can be downloaded from this link.
+- The link contains training data and testing data as well for evaluation purposes.
+
+#### Prepare Training Data
