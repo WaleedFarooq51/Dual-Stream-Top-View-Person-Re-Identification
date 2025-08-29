@@ -1,2 +1,11 @@
 # Person-Re-Identification-in-Retail-and-Marketing-Systems
-PyTorch code for paper "A Framework for Integrating Person Re-Identification with Retail and Marketing Systems"
+PyTorch code for paper "A Framework for Integrating Person Re-Identification with Retail and Marketing Systems".
+
+I adopt the CNN-based ResNet-50 and Transformer-based ViT-Base/16 as backbones, respectively.
+
+### 1. Results.
+
+|Backbone    | Pretrained| Rank@1| mAP | | Model|
+| --------   | -----     | ----- |  ---| ----- |------|
+|ResNet-50   | ImageNet  | ~ 97.94% | ~ 98.82% |----- | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
+|ViT         | ImageNet  | ~ 83.20% | ~ 91.20% | [GoogleDrive](https://drive.google.com/open?id=181K9PQGnej0K5xNX9DRBDPAf3K9JosYk)|
